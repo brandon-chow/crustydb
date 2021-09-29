@@ -1,0 +1,12 @@
+[package]
+name = "txn_manager"
+version = "0.1.0"
+authors = ["Aaron Elmore <aelmore@cs.uchicago.edu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.11"
+env_logger = "0.7.1"
+common = { path = "../common" }
